@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #0F0F0F;
+    font-size: 14px;
+}
+
+.img-thumb {
+    width: 340px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.img-profile {
+    width: 36px;
+    border-radius: 50%;
+}
+
+.caixa-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0F0F0F;
+}
+
+
+.caixa-textos {
+    display: flex; 
+    flex-direction: column;
+    gap: 7px;  
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+.videos-info {
+    display: flex;
+    flex-direction: column;
+    color: #606060;
+
+}
+
+.informacoes {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 340px;
+    color: #606060;
+}
+
+.caixa-videos {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.categorias {
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.categoria {
+    border-radius: 7px;
+    background-color: #dfdfdfc4;
+    padding: 7px 14px;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.categoria.selecionado {
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.site {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-lateral {
+    min-width: 240px;
+}
+
+.menu-bloco {
+    border-bottom: 2px solid #0f0f0f1c;
+    padding: 15px;
+}
+
+.menu-item {
+    display: flex;
+    border-radius: 12px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 15px;
+    color: #0F0F0F;
+}
+
+.menu-item-selecionado {
+   display: flex;
+   background-color: #dfdfdfc4;
+   padding: 10px 20px;
+   border-radius: 12px;
+   gap: 15px;
+}
+
+.item-texto-selecionado {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 20px;
+}
+
+.caixa-logo, .caixa-pesquisa, .caixa-login {
+    display:flex;
+    gap:14px;
+    justify-content: align;
+}
+
+.input-pesquisa {
+    border-radius: 100px;
+    border: 1px solid #0f0f0f28;
+    height: 40px;
+    width: 640px;
+    font-size: 16px;
+    padding: 0;
+}
+
+.icone-microfone {
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    background-color: #0f0f0f28;
+    border-radius: 50%;    
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.caixa-pesquisa {
+    margin-left: 32px;
+}
+
+.sininho {
+    width: 30px;
+    height: 30px;
+}
