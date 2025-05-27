@@ -1,4 +1,4 @@
-# Clone da Página Inicial do YouTube 🎥
+# Clone da Página Inicial do YouTube
 
 Este projeto foi desenvolvido como exercício prático para treinar **HTML** e **CSS**. A ideia foi recriar a interface inicial do YouTube, focando na estruturação dos elementos e no uso de estilos para deixar o layout parecido com o original.
 
