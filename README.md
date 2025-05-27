@@ -11,13 +11,6 @@ Este projeto foi desenvolvido como exercício prático para treinar **HTML** e *
 
 <img src="https://raw.githubusercontent.com/trulythau/home-youtube/main/preview.jpg.jpg" alt="Prévia do projeto" width="600"/>
 
-## 🚀 Como visualizar
-
-Você pode acessar o projeto localmente assim:
-
-1. Baixe os arquivos deste repositório
-2. Abra o arquivo `index.html` no seu navegador
-
 ## 📝 Objetivo
 
 O principal objetivo deste projeto foi praticar:
